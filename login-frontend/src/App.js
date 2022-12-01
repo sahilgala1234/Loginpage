@@ -14,7 +14,7 @@ function App() {
       
       <main className="App">
         <Route path="/" component={LandingPage} exact />
-        <Route path="/login" component={LoginScreen} />
+        <Route path="/login " component={LoginScreen} />
         <Route path="/register" component={RegisterScreen} />
         
       </main>
