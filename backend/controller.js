@@ -43,7 +43,7 @@ if(user&&await user.matchPassword(password)){
     })}
 else {
     res.status(401);
-    throw new Error("Invalid Email or Password");
+    throw new Error("Invalid Email or Password entered");
   }
 }
 
