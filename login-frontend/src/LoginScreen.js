@@ -50,7 +50,7 @@ function LoginScreen() {
             Submit
           </Button>
         </Form>
-        <Row className="py-3">
+        <Row className="py-4">
           <Col>
             New Customer ? <Link to="/register">Register Here</Link>
           </Col>
